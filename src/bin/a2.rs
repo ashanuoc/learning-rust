@@ -8,5 +8,17 @@
 // * Use a function to display the result
 // * Use the "{:?}" token in the println macro to display the result
 
-fn main() {}
+// * Use a function to add two numbers together
+fn add(a: i32, b: i32) -> i32{
+    a + b
+}
+
+// * Use a function to display the result
+fn display_results( result: i32){
+    println!("{:?}", result);
+}
+fn main() {
+    let sum = add(5, 14);
+    display_results(sum)
+}
 
