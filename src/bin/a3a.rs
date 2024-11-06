@@ -10,5 +10,13 @@
 // * Use an if..else block to determine which message to display
 // * Use the println macro to display messages to the terminal
 
-fn main() {}
+fn main() {
+    let age :i32 = 20;
+    if age >=18 {
+        println!("you can vote!")
+    }
+    else {
+        println!("you can not vote!")
+    }
+}
 
